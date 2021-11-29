@@ -33,10 +33,4 @@ In addition to this conclusion, the question of how much impact will the mentors
 
 #### [mentorship_counts](Data/mentorship_counts.csv) ![mentorship_counts](Data/Images/mentorship_counts.png)
 
-Based on this table, the 1,549 mentorship-eligible employees are broken down by title to show how much impact the program will have relative to the number of employees expected to retire. This table shows a troubling fact about the company's expected state after the "silver tsunami": despite the basic numbers showing the max number of mentors would need to each mentor 58 new hires at the very least, the largest number of vacancies will be in the Senior Engineer position and the number of eligible employees to be mentors is among the lower numbers in the titles shown in this table. There is a large percentage of engineers that can fit the mentorship program's criteria however, with the majority being less senior employees, it can be reasonable to expect the quality of the mentorship will not be the same between the two levels and will be reflected in the performances of the new hires.
-
-
-
-
-
-
+Based on this table, the 1,549 mentorship-eligible employees are broken down by title to show how much impact the program will have relative to the number of employees expected to retire. This table shows a troubling fact about the company's expected state after the "silver tsunami": despite the basic numbers showing the max number of mentors would need to each mentor 58 new hires at the very least, the largest number of vacancies will be in the Senior Engineer position and the number of eligible employees to be mentors is among the lower numbers in the titles shown in this table. There is, indeed, a large percentage of engineers that can fit the mentorship program's criteria however, with the majority being less senior employees, it can be reasonable to expect the quality of the mentorship will not be the same between the two levels and will be reflected in the performances of the new hires. Unfortunately, based on the numbers available at the moment, the likelihood of having enough employees able to mentor new hires to make up for the lost staff numbers is going to be on the lower end and probably will require expanding the criteria to make more employees eligible for mentorship roles.
