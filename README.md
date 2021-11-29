@@ -21,7 +21,7 @@ Based on this table, two conclusions can be drawn about the numbers of retiremen
 ### Number of Mentorship Eligible Employees
 To determine the number of employees eligible for the mentorship program the Employees, Department Employees, and Titles tables were joined on their primary key emp_no and the resulting data was filtered select employees with birth dates in the year 1965. The resulting table was then named "mentorship_eligibility", and a screenshot of the table along with a link to the CSV file is included below.
 
-####[mentorship_eligibility](Data/mentorship_eligibility.csv) ![mentorship_eligibility_total](Data/Images/mentorship_eligibility_total.png)
+#### [mentorship_eligibility](Data/mentorship_eligibility.csv) ![mentorship_eligibility_total](Data/Images/mentorship_eligibility_total.png)
 
 Based on this new table, two more conclusions can be made in addition to the list of conclusions from the part listed above:
 1. The total number of eligible employees is much lower than the number of employees nearing retirement, with the total number of eligible employees being 1,549.
