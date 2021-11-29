@@ -3,7 +3,7 @@
 -- Create new table for retiring employees
 SELECT e.emp_no, e.first_name, e.last_name,
 t.title, t.from_date, t.to_date
-INTO retirement_titles
+INTO retirement_titlesIg
 FROM employees as e
 LEFT JOIN titles as t
 ON e.emp_no = t.emp_no
@@ -36,3 +36,10 @@ ON e.emp_no = t.emp_no
 WHERE (de.to_date = '9999-01-01')
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
+
+-- Create mentorship count table
+SELECT COUNT (me.emp_no), me.title
+INTO mentorship_counts
+FROM mentorship_eligibility as me
+GROUP BY me.title
+ORDER BY count DESC;
